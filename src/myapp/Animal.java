@@ -1,5 +1,9 @@
 package myapp;
 
 public class Animal {
-    private String name;
+    private String nameAnimal;
+
+    public Animal(String nameAnimal) {
+        this.nameAnimal = nameAnimal;
+    }
 }
